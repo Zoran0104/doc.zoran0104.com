@@ -2,4 +2,5 @@
   - [back](../)  
   - [Mybatis](mybatis/m.md)
   - [Mybatis-Plus](mybatis/mp.md)
+    - [整合MP](mybatis/mp-zhenghe)
     - [常用注解](mybatis/mp-anno)

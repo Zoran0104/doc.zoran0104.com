@@ -1,25 +1,4 @@
-## Spring Boot中整合配置文件
 
-非特殊情况下，原先需要配置的***`mybatis.mapper-locations`***以及***`mybatis.type-aliases-package`***均可无需配置
-
-```yaml
-spring:
-  datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/db2019?useUnicode=true
-    			&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
-```
-
-Mybatis-plus中dao类只要继承了`BaseMapper`就拥有了基本的增删改查功能
-
-```java
-public interface UserDao extends BaseMapper<User> {
-
-}
-```
 
 ## 在控制台显示SQL语句
 
@@ -48,6 +27,8 @@ public class MybatisPlusConfig {
 }
 ```
 
+示例代码：
+
 ```java
         Page<SysMenu> sysMenuPage = sysMenuDao.selectPage(new Page<>(2, 3)
                 , new QueryWrapper<SysMenu>().eq("parent_id",6));
@@ -58,4 +39,6 @@ public class MybatisPlusConfig {
 > **<font color=#0099ff>注意:</font>** `在MP中，条件构造器中的列名必须为数据库的列名，不能改用驼峰`
 
 ## **多数据源配置（后续补充）
+
+
 
