@@ -7,7 +7,7 @@
 ## Spring+Mybatis+MP
 
 ```xml
- 		<context:property-placeholder location="jdbc.properties"/>
+ 	<context:property-placeholder location="jdbc.properties"/>
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" 
           destroy-method="close">
         <property name="url" value="${jdbc.url}"/>
@@ -25,7 +25,7 @@
         <property name="basePackage" value="com.zoran.springmp.dao"/>
     </bean>
 ```
-## Spring Boot中整合配置文件
+## Spring Boot+MP
 
 非特殊情况下，原先需要配置的`mybatis.mapper-locations`***以及***`mybatis.type-aliases-package`均可无需配置
 
