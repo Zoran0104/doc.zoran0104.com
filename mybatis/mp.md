@@ -36,7 +36,7 @@ public class MybatisPlusConfig {
         sysMenuPage.getRecords().forEach(i-> System.out.println("i = " + i));
 ```
 
-> **<font color=#0099ff>注意:</font>** `在MP中，条件构造器中的列名必须为数据库的列名，不能改用驼峰`
+
 
 ## **多数据源配置（后续补充）
 
