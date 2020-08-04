@@ -34,3 +34,13 @@ public class MybatisPlusApplication{
 | `select` | boolean |    否    |  true  | 是否进行 select 查询 |
 |  其余见官网         |
 
+> 当数据库表的字段名为数据库保留关键字时，例如`desc`等，使用`TableField`注解时需加上\`  \` 
+>
+> Ex:
+>
+> xml配置中：正确：\`desc\` = #{desc}			错误：desc#{desc}
+>
+> ```java
+> @TableField("`desc`")
+> private String desc;
+> ```
