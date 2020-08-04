@@ -36,4 +36,3 @@ boolean updateBatchById(Collection<T> entityList, int batchSize);
 				//4⃣️上述在updatewrapper传入的实体类对象里的字段构成条件，不构成更新
     }
 ```
-
