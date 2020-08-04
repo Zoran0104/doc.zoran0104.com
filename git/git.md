@@ -21,7 +21,7 @@
 
 + 基本操作
 
-  <img src="./image-20200804142947147.png" alt="image-20200804142947147" style="zoom: 33%;" />
+  <img src="../git/image-20200804142947147.png" alt="image-20200804142947147" style="zoom: 33%;" />
 
 ## 本地库
 
@@ -32,18 +32,20 @@ git commit -m "commit message" [file name] #将暂存区的内容提交到本地
 git commit -a   #修改文件后直接提交不用git add
 ```
 
+## git log 
+
 `git log`:
 
-<img src="./image-20200804145715802.png" alt="image-20200804145715802" style="zoom:75%;" />
+<img src="../git/image-20200804145715802.png" alt="image-20200804145715802" style="zoom:75%;" />
 
 `git log --pretty=oneline`
 
-<img src="./image-20200804150049555.png" alt="image-20200804150049555" style="zoom:75%;" />
+<img src="../git/image-20200804150049555.png" alt="image-20200804150049555" style="zoom:75%;" />
 
 `git log --oneline`
 
-<img src="./image-20200804150211550.png" alt="image-20200804150211550" style="zoom:75%;" />
+<img src="../git/image-20200804150211550.png" alt="image-20200804150211550" style="zoom:75%;" />
 
 `git reflog`
 
-<img src="./image-20200804150348168.png" alt="image-20200804150348168" style="zoom:75%;" />
+<img src="../git/image-20200804150348168.png" alt="image-20200804150348168" style="zoom:75%;" />
