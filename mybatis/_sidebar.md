@@ -5,3 +5,4 @@
     - [整合MP](mybatis/mp-zhenghe)
     - [常用注解](mybatis/mp-anno)
     - [通用CRUD接口](mybatis/mp-commonCRUD)
+    - [配置](mybatis/mp-config)
